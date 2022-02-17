@@ -1,0 +1,999 @@
+( F ( pick_up_v ( peach_n ) ) )
+( F ( go_to_v ( house_n ) ) )
+( F ( grab_v ( flag_n ) ) )
+( F ( grab_v ( pear_n ) ) )
+( F ( grab_v ( pear_n ) ) )
+( F ( go_to_v ( tree_n ) ) )
+( F ( pick_up_v ( ( peach_n ) | ( apple_n ) ) ) )
+( F ( go_to_v ( tree_n ) ) )
+( F ( go_to_v ( house_n ) ) )
+( F ( visit_v ( flag_n ) ) )
+( F ( go_to_v ( flag_n ) ) )
+( GF ( go_to_v ( flag_n ) ) )
+( F ( go_by_v ( house_n ) ) )
+( F ( go_to_v ( house_n ) ) )
+( F ( go_to_v ( house_n ) ) )
+( F ( get_v ( pear_n ) ) )
+( F ( pick_up_v ( ( apple_n ) | ( peach_n ) ) ) )
+( GF ( get_v ( pear_n ) ) )
+( F ( pick_up_v ( peach_n ) ) )
+( F ( be_at_v ( flag_n ) ) )
+( F ( go_to_v ( house_n ) ) )
+( F ( pick_up_v ( pear_n ) ) )
+( F ( go_to_v ( flag_n ) ) )
+( F ( go_to_v ( house_n ) ) )
+( F ( pick_up_v ( apple_n ) ) )
+( F ( visit_v ( flag_n ) ) )
+( GF ( go_to_v ( house_n ) ) )
+( F ( go_to_v ( flag_n ) ) )
+( F ( go_to_v ( tree_n ) ) )
+( F ( go_to_v ( flag_n ) ) )
+( F ( start_going_to_v ( house_n ) ) )
+( F ( pick_up_v ( pear_n ) ) )
+( F ( pick_up_v ( apple_n ) ) )
+( F ( go_to_v ( flag_n ) ) )
+( F ( get_v ( ( apple_n ) & ( orange_n ) ) ) )
+( F ( go_to_v ( tree_n ) ) )
+?
+( F ( take_v ( orange_n ) ) )
+( GF ( go_to_v ( ( tree_n ) | ( flag_n ) ) ) )
+( F ( grab_v ( pear_n ) ) )
+( F ( go_to_v ( ( tree_n ) | ( flag_n ) ) ) )
+( F ( go_to_v ( flag_n ) ) )
+( F ( go_to_v ( ( tree_n ) & ( trash_can_n ) ) ) )
+( F ( go_to_v ( tree_n ) ) )
+( F ( pick_up_v ( peach_n ) ) )
+( GF ( grab_v ( pear_n ) ) )
+( F ( go_by_v ( house_n ) ) )
+( F ( pick_up_v ( apple_n ) ) )
+( F ( pick_up_v ( ( apple_n ) | ( peach_n ) ) ) )
+( F ( go_to_v ( house_n ) ) )
+( F ( go_to_v ( flag_n ) ) )
+( F ( get_v ( orange_n ) ) )
+( F ( pick_up_v ( ( peach_n ) | ( apple_n ) ) ) )
+( F ( get_v ( apple_n ) ) )
+( F ( go_to_v ( house_n ) ) )
+( F ( grab_v ( apple_n ) ) )
+( F ( go_to_v ( flag_n ) ) )
+( F ( grab_v ( orange_n ) ) )
+( GF ( go_to_v ( flag_n ) ) )
+( F ( go_to_v ( ( flag_n ) | ( tree_n ) ) ) )
+( F ( get_v ( ( apple_n ) | ( orange_n ) ) ) )
+( F ( go_to_v ( house_n ) ) )
+( F ( go_to_v ( tree_n ) ) )
+( F ( take_v ( apple_n ) ) )
+( F ( grab_v ( pear_n ) ) )
+( F ( go_to_v ( tree_n ) ) )
+( G ( move_v ) )
+( GF ( get_v ( apple_n ) ) )
+( F ( go_to_v ( house_n ) ) )
+( GF ( go_to_v ( house_n ) ) )
+( F ( pick_up_v ( orange_n ) ) )
+( F ( go_to_v ( house_n ) ) )
+( F ( go_to_v ( tree_n ) ) )
+( F ( go_to_v ( house_n ) ) )
+( GF ( go_to_v ( house_n ) ) )
+( F ( go_to_v ( house_n ) ) )
+( F ( grab_v ( orange_n ) ) )
+( G ( move_v ) )
+( F ( go_to_v ( tree_n ) ) )
+( F ( go_to_v ( house_n ) ) )
+( F ( take_v ( ( apple_n ) & ( orange_n ) ) ) )
+( F ( go_to_v ( ( flag_n ) | ( tree_n ) ) ) )
+( F ( go_to_v ( house_n ) ) )
+( F ( pick_up_v ( apple_n ) ) )
+( F ( go_to_v ( house_n ) ) )
+( F ( go_to_v ( tree_n ) ) )
+( F ( grab_v ( ( apple_n ) & ( orange_n ) ) ) )
+( F ( pick_up_v ( pear_n ) ) )
+( F ( ( take_v ( apple_n ) ) & ( G ( - ( let_go_v ( orange_n ) ) ) ) ) )
+( F ( grab_v ( apple_n ) ) )
+( F ( ( take_v ( pear_n ) ) U ( put_v ( pear_n , bucket_n ) ) ) )
+( F ( take_v ( ( pear_n ) | ( orange_n ) ) ) )
+( F ( pick_up_v ( peach_n ) ) )
+( F ( clutch_up_v ( orange_n ) ) )
+( GF ( go_to_v ( flag_n ) ) )
+( F ( ( reach_v ( house_n ) ) U ( collect_v ( pear_n ) ) ) )
+( F ( pick_up_v ( apple_n ) ) )
+( F ( move_to_v ( house_n ) ) )
+( F ( go_to_v ( flag_n ) ) )
+( GF ( proceed_to_v ( flag_n ) ) )
+( F ( take_v ( ( apple_n ) | ( pear_n ) ) ) )
+( F ( ( get_v ( pear_n ) ) U ( get_v ( apple_n ) ) ) )
+( F ( grab_v ( ( pear_n ) & ( apple_n ) ) ) )
+( F ( grab_v ( orange_n ) ) )
+( F ( pick_up_v ( peach_n ) ) )
+( ( F ( ( pick_up_v ( orange_n ) ) U ( - ( drop_v ( apple_n ) ) ) ) ) & ( be_at_v ( tree_n ) ) )
+
+( F ( go_to_v ( house_n ) ) )
+( F ( ( pick_up_v ( apple_n ) ) | ( go_to ( house_n ) ) ) )
+( F ( ( get_v ( ( apple_n ) & ( pear_n ) ) ) | ( go_to ( flag_n ) ) ) )
+( F ( go_to_v ( house_n ) ) )
+( F ( go_to_v ( ( tree_n ) & ( house_n ) ) ) )
+( F ( go_to_v ( flag_n ) ) )
+( F ( go_to_v ( ( tree_n ) & ( house_n ) ) ) )
+( F ( journey_to_v ( flag_n ) ) )
+( F ( get_v ( apple_n ) ) )
+( F ( got_to_v ( house_n ) ) )
+( GF ( ( get_v ( ( apple_n ) & ( orange_n ) ) ) U ( F ( go_to_V ( orange_trashcan_n ) ) ) ) )
+( F ( go_to_v ( tree_n ) ) )
+( F ( ( pick_up_v ( pear_n ) ) | ( pick_up ( apple_n ) ) ) )
+( F ( lay_hold_off_v ( apple_n ) ) )
+( ( F ( obtain_v ( orange_n ) ) ) U ( F ( throw_into_v ( orange_n , trashcan_n ) ) ) )
+( F ( go_to_v ( trashcan_n ) ) )
+( ( F ( take_v ( orange_n ) ) ) U ( F ( pick_up_v ( apple_n ) ) ) )
+( F ( go_to_v ( house_n ) ) )
+( ( F ( pick_up_v ( peach_n ) ) ) U ( take_to_v ( peach_n , trash_can_n ) ) )
+( F ( procure_v ( pear_n ) ) )
+( F ( take_v ( orange_n ) ) )
+( F ( go_to_v ( flag_n ) ) )
+( F ( go_to_v ( flag_n ) ) )
+( F ( get_v ( ( orange_n ) & ( pear_n ) ) ) )
+( ( ( F ( pick_up_v ( pear_n ) ) ) U ( G ( hold_on_v ( pear_n ) ) ) ) & ( F ( go_to_v ( tree_n ) ) ) )
+( F ( pick_up_v ( peach_n ) ) )
+( GF ( ( go_to_v ( tree_n ) & ( house_n ) ) ) )
+( F ( go_to_v ( tree_n ) ) )
+( F ( ( go_to_v ( house_n ) ) U ( go_to_v ( trash_can_n ) ) ) )
+( F ( ( take_v ( pear_n ) ) U ( ( take_v ( ( apple_n ) | ( orange_n ) ) ) | ( put_in_v ( pear_n , bucket_n ) ) ) ) )
+( F ( acquire_v ( apple_n ) ) )
+( F ( go_to_v ( tree_n ) ) )
+( F ( go_to_v ( house_n ) ) )
+( F ( ( pick_up_v ( pear_n ) ) U ( move_to_v ( trashcan_n ) ) ) )
+( F ( go_to_v ( flag_n ) ) )
+( F ( visit_v ( waste_basket_n ) ) )
+( F ( move_v ( ( flag_n ) & ( tree_n ) ) ) )
+( F ( go_to_v ( ( trash_can_n ) & ( peach_n ) ) ) )
+( F ( go_to_v ( house_n ) ) )
+( F ( go_to_v ( ( flag_n ) & ( tree_n ) ) ) )
+( F ( bring_to_v ( orange_n , tree_n ) ) )
+( F ( take_v ( apple_n ) ) )
+( F ( ( take_v ( orange_n ) ) U ( G ( move_v ) ) ) )
+( F ( ( go_to_v ( tree_n ) ) | ( pick_up_v ( apple_n ) ) ) )
+( F ( ( take_v ( pear_n ) ) U ( ( go_to_v ( flag_n ) ) | ( put_in_v ( pear_n , bucket_n ) ) ) ) )
+( F ( ( go_to_v ( house_n ) ) & ( get_to_v ( flag_n ) ) ) )
+( F ( pick_up_v ( pear_n ) ) )
+( F ( make_to_v ( flag_n ) ) )
+( F ( take_v ( ( apple_n ) | ( orange_n ) ) ) )
+( F ( go_to_v ( flag_n ) ) )
+( F ( go_to_v ( flag_n ) ) )
+( F ( pick_up_v ( ( apple_n ) | ( peach_n ) ) ) )
+( F ( pick_up_v ( pear_n ) ) )
+( F ( ( take_v ( orange_n ) ) & ( go_to_v ( ( house_n ) | ( flag_n ) ) ) ) )
+( F ( procure_v ( apple_n ) ) )
+( F ( take_v ( ( pear_n ) | ( orange_n ) ) ) )
+( F ( venture_to_v ( house_n ) ) )
+( F ( go_to_v ( house_n ) ) )
+( F ( get_near_v ( flag_n ) ) )
+( F ( pick_up_v ( orange_n ) ) )
+( F ( get_v ( pear_n ) ) )
+( F ( go_to_v ( tree_n ) ) )
+( GF ( go_to_v ( flag_n ) ) )
+( GF ( go_to_v ( house_n ) ) )
+( F ( seize_v ( pear_n ) ) )
+( F ( track_towards_v ( tree_n ) ) )
+( GF ( take_v ( pear_n ) ) )
+( F ( ( take_v ( apple_n ) ) & ( go_to_v ( house_n ) ) ) )
+( F ( move_near_v ( tree_n ) ) )
+( F (hold_v (orange_n)) & F (hold_v (apple_n)) & GF (hold_v (orange_n)))
+( F ( ( grip_v ( apple_n ) ) | ( venture_to_v ( house_n ) ) ) )
+( F ( go_to_v ( house_n ) ) )
+( F ( go_to_v ( house_n ) ) )
+( F ( go_to_v ( house_n ) ) )
+( F ( go_to_v ( house_n ) ) )
+( F ( ( go_to_v ( flag_n ) ) | ( go_to_v ( orange_bin_n ) ) ) )
+( F ( take_v ( ( orange_n ) | ( pear_n ) | (apple_n) ) ) )
+( F ( ( pick_up_v ( apple_n ) ) & ( go_to_v ( ( trashcan_n ) | ( house_n ) ) ) ) )
+( F ( ( get_to_v ( flag_n ) ) | ( get_to_v ( tree_n ) ) ) )
+( F ( go_to_v ( house_n ) ) )
+( F ( get_v ( orange_n ) ) )
+( F ( ( pick_up_v ( apple_n ) ) | ( pick_up_v ( orange_n ) ) ) )
+( F ( ( grab_v ( orange_n ) ) & ( go_to_v ( tree_n ) ) ) )
+( F ( pick_up_v ( apple_n ) ) )
+( F ( pick_up_v ( apple_n ) ) )
+( F ( journey_to_v ( ( trash_can_n ) & ( flag_n ) ) ) )
+( GF ( ( acquire_v ( pear_n ) | ( orange_n ) ) ) )
+( F ( go_to_v ( flag_n ) ) )
+( F ( go_to_v ( tree_n ) ) )
+( F ( go_to_v ( ( tree_n ) | ( house_n ) ) ) )
+( F ( grab_v ( orange_n ) ) )
+( F ( go_to_v ( tree_n ) ) )
+( ( F ( pick_up_v ( fruit_n ) ) ) & ( F ( go_to_v ( peach_n ) ) ) )
+( ( F ( pick_up_v ( apple_n ) ) ) U ( F ( go_to_v ( tree_n ) ) ) )
+( F ( go_to_v ( flag_n ) ) )
+( F ( go_to_v ( flag_n ) ) )
+( F ( take_v ( apple_n ) ) )
+( F ( journey_to_v ( tree_n ) ) )
+( F ( go_past_v ( flag_n ) ) )
+( F ( ( procure_v ( apple_n ) ) & ( travel_to_v ( house_n ) ) ) )
+( F ( go_to_v ( tree_n ) ) )
+( GF ( grab_v ( tree_n ) ) )
+( F ( withdraw_v ( pear_n ) ) )
+( F ( grab_v ( apple_n ) ) )
+( G ( grasp_v ( pear_n ) ) )
+( F ( ( obtain_v ( apple_n ) ) & ( journey_to_v ( house_n ) ) ) )
+( ( F ( take_v ( orange_n ) ) ) & ( F ( go_to_v ( tree_n ) ) ) )
+( GF ( go_to_v ( ( flag_n ) | ( tree_n ) ) ) )
+( F ( pick_up_v ( apple_n ) ) )
+( F ( go_to_v ( ( flag_n ) & ( apple_n ) ) ) )
+( F ( ( pick_up_v ( apple_n ) ) & ( G ( - ( drop_v ( apple_n ) ) ) ) ) )
+( F ( grab_v ( orange_n ) ) )
+( F ( go_to_v ( ( house_n ) & ( tree_n ) ) ) )
+( GF ( get_v ( apple_n ) ) )
+( GF (pick_up_v (pear_n) ) U F (go_to_v (flag_n) ) )
+( F ( ( visit_v ( flag_n ) ) & ( snatch_up_v ( pear_n ) ) ) )
+( F ( grab_v ( apple_n ) ) )
+( F ( pick_up_v ( ( pear_n ) & ( orange_n ) ) ) )
+( F ( go_to_v ( trash_can_n ) ) )
+( F ( get_v ( orange_n ) ) )
+( F ( go_to_v ( house_n ) ) )
+( ( F ( take_v ( apple_n ) ) ) & ( F ( go_to_v ( flag_n ) ) ) )
+( F ( visit_v ( tree_n ) ) )
+( F ( go_to_v ( house_n ) ) )
+( GF ( get_v ( pear_n ) ) )
+( F ( visit_v ( flag_n ) ) )
+( F ( pick_up_v ( apple_n ) ) )
+( F ( pick_up_v ( pear_n ) ) )
+( F ( go_to_v ( tree_n ) ) )
+( F ( journey_to_v ( tree_n ) ) )
+( F ( visit_v ( ( flag_n ) & ( tree_n ) ) ) )
+( F ( ( pick_up_v ( apple_n ) ) U ( ( go_to_v ( house_n ) ) & ( go_to_v ( trash_can_n ) ) ) ) )
+( F ( go_to_v ( trash_bin_n ) ) )
+( F ( grab_v ( orange_n ) ) )
+( F ( touch_v ( tree_n ) ) )
+( F ( get_v ( pear_n ) ) )
+( F ( grab_v ( ( orange_n ) | ( apple_n ) ) ) )
+( GF ( get_v ( apple_n ) ) )
+( F ( go_to_v ( tree_n ) ) )
+( ( F ( go_to_v ( flag_n ) ) ) & ( F ( go_to_v ( house_n ) ) ) )
+( ( F ( go_to_v ( pear_n ) ) ) & ( F ( pick_up_v ( pear_n ) ) ) )
+( F ( go_to_v ( flag_n ) ) )
+( F ( ( pick_up_v ( pear_n ) ) U ( take_to_v ( pear_n , flag_n ) ) ) )
+( F ( go_v ( home_n ) ) )
+( F ( go_to_v ( flag_n ) ) )
+( F ( go_to_v ( pear_n ) ) )
+( F ( go_by_v ( tree_n ) ) )
+( ( F ( pick_up_v ( ( pear_n ) & ( orange_n ) ) ) ) & ( F ( go_by_v ( trash_can_n ) ) ) )
+( F ( go_to_v ( apple_trashcan_n ) ) )
+( F ( go_to_v ( trash_can_n ) ) )
+( F ( go_to_v ( ( flag_n ) & ( house_n ) ) ) )
+( F ( have_v ( pear_n ) ) )
+( ( F ( grab_v ( apple_n ) ) ) U ( F ( put_in_v ( apple_n , bin_n ) ) ) )
+( F ( go_to_v ( house_n ) ) )
+( ( F ( pick_up_v ( pear_n ) ) ) U ( F ( put_in_v ( apple_n , bin_n ) ) ) )
+( ( F ( grab_v ( orange_n ) ) ) & ( F ( go_to_v ( tree_n ) ) ) )
+( F ( go_to_v ( flag_n ) ) )
+( F ( go_to_v ( tree_n ) ) )
+( F ( pick_up_v ( apple_n ) ) )
+( F ( get_v ( apple_n ) ) )
+( F ( pick_up_v ( apple_n ) ) )
+( ( F ( go_to_v ( apple_n ) ) ) & ( F ( go_to_v ( transh_can_n ) ) ) )
+( F ( go_to_v ( house_n ) ) )
+( F ( ( pick_up_v ( apple_n ) ) & ( go_to_v ( flag_n ) ) ) )
+( F ( ( go_to_v ( tree_n ) ) U ( G ( stay_v ) ) ) )
+( F ( approach_v ( tree_n ) ) )
+( F ( take_v ( ( apple_n ) & ( orange_n ) ) ) )
+( F ( get_v ( ( pear_n ) & ( apple_n ) & ( orange_n ) ) ) )
+( F ( ( pick_up_v ( peach_n ) ) U ( take_to_v ( peach_n , trash_can_n ) ) ) )
+( F ( go_to_v ( house_n ) ) )
+( F ( visit_v ( tree_n ) ) )
+( F ( grasp_v ( pear_n ) ) )
+( ( F ( grasp_v ( orange_n ) ) ) & ( F ( venture_v ( house_n ) ) ) )
+( F ( be_in_v ( house's_vicinity_n ) ) )
+( F ( acquire_v ( ( orange_n ) & ( pear_n ) ) ) )
+( F ( pick_up_v ( peach_n ) ) )
+( ( F ( go_to_v ( tree_n ) ) ) & ( F ( go_to_v ( flag_n ) ) ) )
+( GF ( go_to_v ( flag_n ) ) )
+( GF ( go_to_v ( ( flag_n ) & ( tree_n ) ) ) )
+( F ( pick_up_v ( ( apple_n ) & ( peach_n ) ) ) )
+( F ( pick_up_v ( apple_n ) ) )
+( GF ( get_v ( pear_n ) ) )
+( F ( ( take_v ( orange_n ) ) | ( go_to_v ( house_n ) ) ) )
+( GF ( get_v ( apple_n ) ) )
+( F ( visit_v ( trash_bin_n ) ) )
+( F ( go_to_v ( house_n ) ) )
+( F ( pick_up_v ( pear_n ) ) )
+( ( F ( hold_v ( pear_n ) ) ) U ( ( G ( - ( drop_v ( pear_n ) ) ) ) & ( F ( go_to_v ( flag_n ) ) ) ) )
+( F ( go_to_v ( flag_n ) ) )
+( F ( obtain_v ( ( apple_n ) & ( pear_n ) ) ) )
+( F ( go_to_v ( tree_n ) ) )
+( GF ( get_v ( apple_n ) ) )
+( F ( get_v ( pear_n ) ) )
+( GF ( go_to_v ( flag_n ) ) )
+( F ( bring_to_v ( apple_n , flag_n ) ) )
+( F ( pick_up_v ( pear_n ) ) )
+( F ( venture_to_v ( flag_n ) ) )
+( F ( pick_up_v ( orange_n ) ) )
+( F ( go_by_v ( tree_n ) ) )
+( F ( be_at_v ( house_n ) ) )
+( F ( grab_v ( ( pear_n ) & ( apple_n ) ) ) )
+( F ( take_v ( ( orange_n ) & ( pear_n ) ) ) )
+( F ( pick_v ( ( apple_n ) | ( pear_n ) ) ) )
+( ( F ( pick_up_v ( pear_n ) ) ) U ( ( F ( go_to_v ( flag_n ) ) ) & ( G ( - ( drop_v ( pear_n ) ) ) ) ) )
+( F ( obtain_v ( apple_n ) ) )
+( ( F ( pick_up_v ( orange_n ) ) ) & ( F ( go_to_v ( ( tree_n ) | ( flag_n ) ) ) ) )
+( F ( venture_v ( flag_n ) ) )
+( ( F ( pick_up_v ( orange_n ) ) ) & ( F ( pick_up_v ( pear_n ) ) ) )
+( F ( take_v ( ( apple_n ) & ( orange_n ) ) ) )
+( F ( go_to_v ( ( tree_n ) & ( house_n ) ) ) )
+( F ( ( pick_up_v ( apple_n ) ) U ( take_to_v ( apple_n , trash_can_n ) ) ) )
+( GF ( get_v ( ( apple_n ) & ( orange_n ) ) ) )
+( F ( ( get_v ( orange_n ) ) & ( go_to_v ( house_n ) ) ) )
+( ( F ( collect_v ( apple_n ) ) ) & ( F ( go_by_v ( house_n ) ) ) )
+( ( F ( pick_up_v ( ( pear_n ) & ( apple_n ) & ( peach_n ) ) ) ) & ( F ( go_to_v ( trash_can_n ) ) ) )
+( F ( grab_v ( apple_n ) ) )
+( F ( ( obtain_v ( orange_n ) ) U ( G ( have_in_v ( orange_n , possession ) ) ) ) )
+( F ( go_to_v ( tree_n ) ) )
+( F ( go_to_v ( ( trash_can_n ) & ( tree_n ) ) ) )
+( F ( go_to_v ( trash_can_n ) ) )
+( ( F ( pick_up_v ( orange_n ) ) ) U ( ( F ( go_to_v ( ( tree_n ) | ( house_n ) ) ) ) & ( G ( - ( drop_v ( orange_n ) ) ) ) ) )
+( ( F ( pick_up_v ( pear_n ) ) ) U ( G ( - ( drop_v ( pear_n ) ) ) ) )
+( F ( touch_v ( tree_n ) ) )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
